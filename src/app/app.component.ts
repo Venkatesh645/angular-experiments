@@ -12,6 +12,7 @@ const VALID_TOKEN = 'VALID_TOKEN';
 export class AppComponent {
   title = 'experiments-v8';
   setIntervalCtrl: any;
+  count: number = 0;
 
   constructor(private http: HttpClient) { }
 
@@ -46,10 +47,14 @@ export class AppComponent {
   fetchData(): void {
     try {
       const URL = 'http://localhost:8080/api/url';
+      this.count = this.count + 1;
+      const headers = {
+        token: localStorage.getItem('token'),
+        count: this.count.toString()
+      }
+      console.log('########## headers ==>', headers);
       this.http.get(URL, {
-        headers: {
-          token: localStorage.getItem('token')
-        }
+        headers
       }).subscribe(resp => {
         console.log('fetchData | resp =/>', resp);
       }, error => {
