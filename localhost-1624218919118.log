@@ -1,0 +1,1244 @@
+core.js:38781 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
+client:52 [WDS] Live Reloading enabled.
+app.component.ts:25 ===== Setting the EXPIRED_TOKEN to localStorage ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "1"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "2"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "3"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "4"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "5"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 2
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 3
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 4
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 5
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 1
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "6"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "7"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "8"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "9"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "10"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "11"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "12"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "13"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 10
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 11
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 12
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 13
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 9
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "14"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "15"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "16"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "17"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "18"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "19"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "20"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "21"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "22"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "23"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 20
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 21
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 22
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 23
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 19
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "24"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "25"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "26"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "27"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "28"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "29"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "30"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "31"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "32"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "33"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 30
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 31
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 32
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 33
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 29
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "34"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "35"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "36"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "37"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "38"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "39"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "40"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "41"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "42"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "43"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 40
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 41
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 42
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 43
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 39
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "44"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "45"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "46"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "47"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "48"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "49"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "50"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "51"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "52"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "53"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 50
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 51
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 52
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 53
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 49
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "54"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "55"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "56"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "57"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "58"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "59"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "60"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "61"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "62"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "63"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 60
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 61
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 62
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 63
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 59
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "64"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "65"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "66"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "67"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "68"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "69"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "70"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "71"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "72"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "73"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 70
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 71
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 72
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 73
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 69
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "74"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "75"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "76"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "77"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "78"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "79"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "80"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "81"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "82"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "83"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 80
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 81
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 82
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 83
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 79
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "84"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "85"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "86"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "87"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "88"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "89"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "90"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "91"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "92"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "93"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 90
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 91
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 92
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 93
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 89
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "94"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "95"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "96"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "97"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "98"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "99"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "100"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "101"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "102"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "103"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 100
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 101
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 102
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 103
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 99
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "104"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "105"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "106"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "107"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "108"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "109"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "110"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "111"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "112"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "113"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 110
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 111
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 112
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 113
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 109
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "114"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "115"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "116"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "117"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "118"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "119"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "120"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "121"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "122"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "123"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 120
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 121
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 122
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 123
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 119
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "124"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "125"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "126"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "127"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "128"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "129"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "130"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "131"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "132"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "133"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 130
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 131
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 132
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 133
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 129
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "134"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "135"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "136"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "137"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "138"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "139"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== false
+interceptor.service.ts:50 ========= Inside the IF condition =====
+interceptor.service.ts:52 ====> this.refreshingInProgress set to true <===
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "140"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "141"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "142"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "EXPIRED_TOKEN", count: "143"}
+interceptor.service.ts:36 Inside the error response catchError ==> HttpErrorResponse {headers: HttpHeaders, status: 401, statusText: "Unauthorized", url: "http://localhost:8080/api/url", ok: false, …}
+interceptor.service.ts:38 ====== API call to refreshing the token =======
+interceptor.service.ts:47 Inside the private 'refreshToken' method
+interceptor.service.ts:48 ====> this.refreshingInProgress <=== true
+interceptor.service.ts:64 ========= Inside the ELSE condition =====
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/refreshToken", ok: true, …}
+interceptor.service.ts:56  =========== INSIDE the switchMap Callback ======= | res => {message: "Refresh token", token: "VALID_TOKEN"}
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 140
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 141
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 142
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 143
+interceptor.service.ts:77 Inside the "addAuthorizationHeader" method | token VALID_TOKEN
+interceptor.service.ts:80 Setting the new VALID_TOKEN token
+interceptor.service.ts:81 **** Cloning the request and making api call again with valid token****
+interceptor.service.ts:82 ########## REQUEST headers ==>token => EXPIRED_TOKEN ==== count===> 139
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "144"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:36 ===== setInterval =====
+app.component.ts:55 ########## headers ==> {token: "VALID_TOKEN", count: "145"}
+interceptor.service.ts:31 Inside the 200 success resoponse event--->>> HttpResponse {headers: HttpHeaders, status: 200, statusText: "OK", url: "http://localhost:8080/api/url", ok: true, …}
+app.component.ts:59 fetchData | resp =/> {message: "200  message"}
+app.component.ts:42 === Clearing the interval ===
+app.component.ts:28 ===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======
