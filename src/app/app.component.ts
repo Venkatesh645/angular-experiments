@@ -11,7 +11,7 @@ const VALID_TOKEN = 'VALID_TOKEN';
 })
 export class AppComponent {
   title = 'experiments-v8';
-  setIntervalCtrl: NodeJS.Timer;
+  setIntervalCtrl: any;
 
   constructor(private http: HttpClient) { }
 
@@ -26,11 +26,11 @@ export class AppComponent {
   }
 
   makeApiCalls(): any {
-    this.fetchData();
-    // this.setIntervalCtrl = setInterval(() => {
-    //   console.log("===== setInterval =====");
-    //   this.fetchData();
-    // }, 2000);
+    // this.fetchData();
+    this.setIntervalCtrl = setInterval(() => {
+      console.log("===== setInterval =====");
+      this.fetchData();
+    }, 2000);
   }
 
   stopTheApiCalls() {
