@@ -1,0 +1,48 @@
+.main-div{
+  display: flex;
+  flex-direction: column;
+
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+button:first-child{
+  flex: 1;
+  margin-bottom: 2em;
+  color: aliceblue;
+  background-color: green;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:nth-child(2){
+  flex: 1;
+  margin-bottom: 2em;
+  color: aliceblue;
+  background-color: red;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:nth-child(3){
+  flex: 1;
+  margin-bottom: 2em;
+  color: aliceblue;
+  background-color: grey;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+button {
+  flex: 1;
+  margin-bottom: 2em;
+  color: aliceblue;
+  background-color: #fc4903;
+  font-size: large;
+  font-weight: bold;
+  cursor: pointer;
+}
