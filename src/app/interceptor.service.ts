@@ -77,6 +77,7 @@ export class InterceptorService {
     console.log('Inside the "addAuthorizationHeader" method | token', token);
     if (token) {
       localStorage.setItem('token', token);
+      console.log('Setting the new VALID_TOKEN token')
       console.log('**** Cloning the request and making api call again with valid token****')
       return request.clone({ setHeaders: { token } });
     }
