@@ -79,7 +79,7 @@ export class InterceptorService {
       localStorage.setItem('token', token);
       console.log('Setting the new VALID_TOKEN token')
       console.log('**** Cloning the request and making api call again with valid token****')
-      console.log('########## REQUEST headers ==>', request.headers);
+      console.log('########## REQUEST headers ==>', request.headers.get('count'));
       return request.clone({ setHeaders: { token } });
     }
     return request;
