@@ -23,6 +23,10 @@ export class AppComponent {
   setExpiredToken() {
     console.log('===== Setting the EXPIRED_TOKEN to localStorage ======');
     localStorage.setItem('token', EXPIRED_TOKEN);
+    setInterval(() => {
+      console.log('===== Setting the EXPIRED_TOKEN to localStorage | setINterval ======');
+      localStorage.setItem('token', EXPIRED_TOKEN);
+    }, 10000);
   }
 
   makeApiCalls(): any {
@@ -30,7 +34,7 @@ export class AppComponent {
     this.setIntervalCtrl = setInterval(() => {
       console.log("===== setInterval =====");
       this.fetchData();
-    }, 2000);
+    }, 1000);
   }
 
   stopTheApiCalls() {
